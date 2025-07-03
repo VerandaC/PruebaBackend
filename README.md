@@ -3,22 +3,17 @@ Mini backend desarrollado como prueba técnica para la posición de desarrollado
 
 ## Instalación 
 
-git clone https://github.com/tu-usuario/nombre-del-repo.git
-cd nombre-del-repo
+git clone https://github.com/VerandaC/PruebaBackend.git
+
+cd PruebaBackend
+
 npm install
 
 Cambiar en .env el link de conexion a MongoDB
 
 ## Estructura del Proyecto
 
-Prueba Backend/
-├── index.js
-├── .env
-└── src/
-├── controllers/ # Rutas y controladores (Users, Orders)
-├── models/ # Esquemas Mongoose
-├── services/ # Lógica de negocio
-└── middleware.js # Middleware para multitenancy
+![image](https://github.com/user-attachments/assets/b6d46fec-549c-4a82-b602-ce52f1cf9b3f)
 
 ## El patrón Multitenant
 
