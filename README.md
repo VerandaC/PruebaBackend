@@ -33,6 +33,28 @@ Usamos un archivo `middleware.js` que extrae el `tenantId` desde los headers de 
 npm run dev
 
 Las pruebas se realizan en postman con los siguientes endpoints 
+Ejemplo Nuevo usuario
+Body:
+{
+  "username": "Raquel",
+  "ci": "12345678",
+  "email": "raquel@mail.com",
+  "role": "admin",
+  "password": "12345"
+}
+
+Ejemplo Nuevo Pedido
+Body:
+{
+  "clientName": "María",
+  "items": [
+    { "productName": "Café Americano", "price": 12, "quantity": 2 },
+    { "productName": "Pan", "price": 5, "quantity": 3 }
+  ],
+  "startTime": "2025-07-03T19:00:00.000Z",
+  "total": 39,
+  "createdBy": "ID_DE_USUARIO"
+}
 
 ![image](https://github.com/user-attachments/assets/9b01b83e-0a7d-4462-8de6-c36756ede1ce)
 ![image](https://github.com/user-attachments/assets/432e747d-30d6-49a9-af03-27e15c74bb3e)
